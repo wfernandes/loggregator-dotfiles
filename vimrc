@@ -17,9 +17,12 @@ Plugin 'ctrlpvim/ctrlp.vim'         " Quick file navigation
 Plugin 'tpope/vim-commentary'       " Quickly comment lines out and in
 Plugin 'tpope/vim-fugitive'         " Help formatting commit messages
 Plugin 'tpope/vim-dispatch'         " Allow background builds
+Plugin 'tpope/vim-surround'         " Easily change surrounding characters
 Plugin 'fatih/vim-go'               " Helpful plugin for Golang dev
 Plugin 'vim-scripts/bufkill.vim'    " Kill buffers and leave windows intact
 Plugin 'scrooloose/nerdtree'        " visual file hierarchy navigation
+Plugin 'c.vim'
+Plugin 'AndrewRadev/splitjoin.vim'   " Enable vim-go to split structs into multi lines
 call vundle#end()                   " Complete vunde initialization
 
 " detect file type, turn on that type's plugins and indent preferences
